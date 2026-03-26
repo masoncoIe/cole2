@@ -1,0 +1,8 @@
+packages:
+  "framer-motion": "For smooth layout transitions and staggered entry animations for search results"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For safely merging Tailwind CSS classes"
+
+notes:
+  - "The API integration uses hooks from @workspace/api-client-react as specified in the context."
+  - "Since wouter 3 is used, useSearch is utilized for URL query param reading."
